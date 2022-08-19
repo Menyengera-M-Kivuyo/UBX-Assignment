@@ -8,6 +8,11 @@ use App\Exports\ExportData;
 use App\Models\Data;
 class DataController extends Controller
 {
+    public function index()
+    {
+        $data = DB::table('data')->get();
+       return responce($data, 200);
+    }
     /**
     * @return \Illuminate\Support\Collection
     */

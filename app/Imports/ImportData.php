@@ -29,8 +29,5 @@ class ImportData implements ToModel //WithHeadingRow
                     'Lifting'=>$row[10],
                 ]);
             }
-            else{
-                dd('Data Already Field');
-            }
         }
     }
