@@ -7,7 +7,6 @@ use App\Exports\ExportData;
 use App\Models\Data;
 class DataController extends Controller
 {
-
     /**
     * @return \Illuminate\Support\Collection
     */
