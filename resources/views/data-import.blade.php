@@ -28,7 +28,7 @@
                 </div>
                 </div> 
             </div>
-            <a class="btn btn-success" href="{{ route('data-export') }}">View Data</a>
+            <a class="btn btn-success" href="{{ route('data-view') }}">View Data</a>
         </form>
     </div>
 </body>

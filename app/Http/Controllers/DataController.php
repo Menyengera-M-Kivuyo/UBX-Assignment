@@ -1,5 +1,6 @@
 <?php
 namespace App\Http\Controllers;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Imports\ImportData;
@@ -36,7 +37,7 @@ class DataController extends Controller
     }  
     public function dataView() 
     {
-        $data=Data::All();
+        $data = DB::table('data')->get();
         return view('data-view', compact('data'));
     }  
 }

@@ -12,8 +12,8 @@
             UBX Assignment Upload and View Data to MySQL Database
         </h2>
         <br><br>
-        <table class="table table-striped table-bordered dispaly" style="width:100%">
-                        <thead>
+        <table class="table-bordered dispaly">
+                        <thead class="p-3 mb-2 bg-success text-white">
                           <tr>                        
                             <th>Cargo no:</th>
                             <th>Cargo type:</th>
