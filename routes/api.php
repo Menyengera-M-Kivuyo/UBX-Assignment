@@ -18,6 +18,7 @@ Route::middleware('Auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::resource('data','DataController');
+//Route::get('data', [App\Http\Controllers\DataController::class, 'index']);
 
 
 
