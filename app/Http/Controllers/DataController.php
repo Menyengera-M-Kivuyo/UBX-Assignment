@@ -10,9 +10,8 @@ class DataController extends Controller
 {
     public function index()
     {
-        //$data = DB::table('data')->get();
-        $data=Data::All();
-       return response($data, 200);
+        $data = DB::table('data')->get();
+        return response($data, 200);
     }
     /**
     * @return \Illuminate\Support\Collection
